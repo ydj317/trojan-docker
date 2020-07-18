@@ -2,7 +2,7 @@
 # 下载 Trojan
 FROM ubuntu:latest as builder
 
-ENV TROJAN_VERSION 1.15.1
+ENV TROJAN_VERSION 1.16.0
 
 RUN apt-get update && \
     apt-get install curl -y && \
