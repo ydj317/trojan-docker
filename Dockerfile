@@ -60,4 +60,6 @@ EXPOSE 443
 
 VOLUME ["/opt/cert", "/opt/config", "/etc/nginx/conf.d"]
 
+STOPSIGNAL SIGKILL
+
 CMD ["/usr/bin/entrypoint.sh"]
